@@ -51,7 +51,7 @@
 <hr>
 <h3 id="et-logique">ET logique</h3>
 <p><strong>Adresse hôte binaire</strong> : 10101100 00010000 10000100 01000110 -&gt; 172.16.132.70<br>
-<strong>Masque sous réseau binaire</strong> : 11111111 11111111 11110000 00000000 -&gt; 255.255.240.0<br>
+<strong>Masque sous réseau binaire</strong> : 11111111 11111111 11110000 11100000 -&gt; 255.255.240.0<br>
 <strong>Adresse réseau</strong> : 10101100 00010000 10000000 0000000 -&gt; 172.16.128.0</p>
 <hr>
 <h3 id="ipv4">IPV4</h3>
