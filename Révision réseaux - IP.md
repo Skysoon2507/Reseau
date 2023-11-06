@@ -9,7 +9,7 @@
 <h2 id="normes-ip">Normes IP</h2>
 <p>💡 Format <strong>IPV6</strong> : 16 octets (128 bits)</p>
 <hr>
-<h3 id="trame-ip">Trame IP</h3>
+<h3 id="trame-ip--contenu">Trame IP : contenu</h3>
 <ul>
 <li>
 <p><strong>Version :</strong> 4 pour ipv4 et 6 ipv6</p>
