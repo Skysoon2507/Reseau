@@ -41,7 +41,8 @@
 <ul>
 <li>💡 <mark>TCP</mark> (Transmission Control Protocol) :	<br>
 ✔️Permet d’établir une connexion fiable entre 2 hôtes<br>
-✔️Création d’une <strong>session de connexion (SYN - SIN/ACK - ACK)</strong>, Vérification que les <strong>paquets sont bien transmis</strong>,<br>
+✔️Création d’une <strong>session de connexion (SYN - SIN/ACK - ACK)</strong>,<br>
+✔️ Vérification que les <strong>paquets sont bien transmis</strong>,<br>
 ✔️ <strong>Contrôle des flux</strong> et <strong>gestion des erreurs</strong><br>
 ❌Lent</li>
 </ul>
