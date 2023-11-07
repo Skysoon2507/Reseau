@@ -117,12 +117,18 @@
 </ul>
 <hr>
 <h3 id="spanning-tree-protocol-stp">Spanning Tree Protocol (STP)</h3>
+<p>💡 Topologie <strong>redondante</strong></p>
+<ul>
+<li>✔️ Tolérance aux pannes</li>
+<li>❌ Risque tempête de broadcast</li>
+<li>❌ Instabilité des tables de commutation</li>
+</ul>
 <p>💡 Etapes de mises en place :</p>
 <ol>
 <li>
 <p>Election du <strong>commutateur racine</strong> (Root Bridge)<br>
 ▶️ Identifiant <em>BID le plus petit</em><br>
-▶️ <em>Valeur de priorité</em> paramétrable + numéro de <em>VLAN</em> + <em>adresse MAC</em> du switch + numéro de port</p>
+▶️ <em>Valeur de priorité</em> (❓ Par défaut : 32768) + numéro de <em>VLAN</em> + <em>adresse MAC</em> du switch + numéro de port</p>
 </li>
 <li>
 <p>Calcul du <strong>chemin</strong> de <strong>coût le plus faible</strong> vers chaque équipement depuis ce pont racine</p>
@@ -134,5 +140,11 @@
 <li>FastEthernet : <strong>100 Mbits / 19</strong></li>
 <li>Gigabit-Ethernet : <strong>1 Gbits / 4</strong></li>
 <li>Ten-Gigabit-Ethernet : <strong>10 Gbits / 2</strong></li>
+</ul>
+<p>💡 Paramétrage STP  Switch</p>
+<ul>
+<li><code>#show spanning-tree</code> : Afficher l’<strong>etat</strong> des ports du Switch</li>
+<li><code>(config)#spanning-tree [vlan 1] priority 4096</code> : Configurer la <strong>priorité</strong> d’un Switch</li>
+<li><code>#show spanning-tree vlan 1 ou interface fa0/1</code> : Afficher le STP pour un <strong>VLAN / une interface</strong></li>
 </ul>
 
