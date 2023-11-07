@@ -9,7 +9,7 @@
 <h2 id="normes-ip">Normes IP</h2>
 <p>💡 Format <strong>IPV6</strong> : 16 octets (128 bits)</p>
 <hr>
-<h3 id="trame-ip--contenu">Trame IP : contenu</h3>
+<h3 id="paquet-ip--contenu">Paquet IP : contenu</h3>
 <ul>
 <li>
 <p><strong>Version :</strong> 4 pour ipv4 et 6 ipv6</p>
@@ -41,7 +41,7 @@
 <ul>
 <li>💡 <mark>TCP</mark> (Transmission Control Protocol) :	<br>
 ✔️Permet d’établir une connexion fiable entre 2 hôtes<br>
-✔️Création d’une <strong>session de connexion (SYN - SIN/ACK - ACK)</strong>,<br>
+✔️Création d’une <strong>session de connexion (SYN - SYN/ACK - ACK)</strong>,<br>
 ✔️ Vérification que les <strong>paquets sont bien transmis</strong>,<br>
 ✔️ <strong>Contrôle des flux</strong> et <strong>gestion des erreurs</strong><br>
 ❌Lent</li>
